@@ -2,4 +2,5 @@ name: BetterStacking
 author: [HydroTekZ]
 main: net.hydrotekz.BetterStacking.StackingPlugin
 version: 1.0.0
+spigot: 78883
 api-version: 1.15
