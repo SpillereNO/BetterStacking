@@ -13,7 +13,7 @@ public class mc_newer extends MultiVersion implements VersionSupport {
 	}
 	
 	/*
-	 * 1.9.* - 1.15.*
+	 * 1.9.* - 1.16.*
 	 */
 
 	@Override
