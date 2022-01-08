@@ -1,4 +1,4 @@
-package net.hydrotekz.BetterStacking.support;
+package no.spillere.stacking.support;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -6,38 +6,39 @@ import org.bukkit.entity.FallingBlock;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-public class mc_legacy extends MultiVersion implements VersionSupport {
+public class mc_newer extends MultiVersion implements VersionSupport {
 
-	public mc_legacy() {
+	public mc_newer() {
 		super();
 	}
-
+	
 	/*
-	 * 1.7.* - 1.8.*
+	 * 1.9.* - 1.16.*
 	 */
 
 	@Override
 	public ItemStack getItemInHand(Player player) {
-		return player.getInventory().getItemInHand();
+		return player.getInventory().getItemInMainHand();
 	}
 
 	@Override
 	public Material getEndStone() {
-		return Material.ENDER_STONE;
+		return Material.END_STONE;
 	}
 
 	@Override
 	public Material getRedSand() {
-		return Material.SAND;
+		return Material.RED_SAND;
 	}
 
 	@Override
 	public Material getFallingBlockType(FallingBlock falling) {
-		return falling.getMaterial();
+		return falling.getBlockData().getMaterial();
 	}
 
 	@Override
 	public void setBlockData(Block block, FallingBlock falling) {
-		block.setData(falling.getBlockData());
+		block.setBlockData(falling.getBlockData());
 	}
+	
 }

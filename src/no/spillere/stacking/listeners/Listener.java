@@ -1,6 +1,8 @@
-package net.hydrotekz.BetterStacking.listeners;
+package no.spillere.stacking.listeners;
 
 import java.util.List;
+
+import no.spillere.stacking.support.MultiVersion;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -12,8 +14,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.entity.ItemSpawnEvent;
 
-import net.hydrotekz.BetterStacking.StackingPlugin;
-import net.hydrotekz.BetterStacking.support.MultiVersion;
+import no.spillere.stacking.StackingPlugin;
 
 public class Listener implements org.bukkit.event.Listener {
 

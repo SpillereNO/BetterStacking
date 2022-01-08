@@ -1,15 +1,15 @@
-package net.hydrotekz.BetterStacking.handlers;
+package no.spillere.stacking.handlers;
 
 import java.io.File;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+import no.spillere.stacking.util.Util;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 
-import net.hydrotekz.BetterStacking.StackingPlugin;
-import net.hydrotekz.BetterStacking.util.Util;
+import no.spillere.stacking.StackingPlugin;
 
 public class Handler {
 

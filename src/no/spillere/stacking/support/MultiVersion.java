@@ -1,6 +1,6 @@
-package net.hydrotekz.BetterStacking.support;
+package no.spillere.stacking.support;
 
-import net.hydrotekz.BetterStacking.StackingPlugin;
+import no.spillere.stacking.StackingPlugin;
 
 public abstract class MultiVersion implements VersionSupport {
 

@@ -1,4 +1,4 @@
-package net.hydrotekz.BetterStacking.support;
+package no.spillere.stacking.support;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;

@@ -1,4 +1,4 @@
-package net.hydrotekz.BetterStacking.util;
+package no.spillere.stacking.util;
 
 import java.io.File;
 import java.io.InputStream;
